@@ -1,31 +1,30 @@
 # 🖼️ React Image Searching Service
 
-A responsive image search app built with **React** and **Vite**, using the **Pixabay API** to fetch images.  
-Users can type a query to get matching images displayed in a gallery, and click any image to see a larger version in a modal window.  
+A responsive image search application built with **React** and **Vite**, powered by the **Pixabay API**.  
+Users can enter a keyword to fetch matching images, view them in a responsive gallery layout, and preview them in a modal window.  
 Deployed on [**Vercel**](https://react-image-searching-service.vercel.app).
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **React**
-- **Vite**
-- **Axios**
-- **Pixabay REST API**
-- **Custom Modal**
-- **Responsive Layout**
-- **Form Validation**
+- React
+- Vite
+- Axios
+- Pixabay REST API
+- Custom Modal
+- Responsive Layout (Mobile, Tablet, Desktop)
+- Form Validation
 
 ---
 
 ## ✨ Features
 
 - Keyword-based image search
-- Display results in a gallery layout
-- Modal window to preview full-size image
-- Responsive design for mobile, tablet, and desktop
-- "Load more" button for pagination
-- Prevents empty query submission with validation
+- Responsive grid layout (mobile, tablet, desktop)
+- Modal view for enlarged image preview
+- Pagination with “Load more” button
+- Input validation to prevent empty search queries
 
 ---
 
@@ -37,14 +36,14 @@ Deployed on [**Vercel**](https://react-image-searching-service.vercel.app).
 
 ## 📸 Screenshots
 
-| ![Search Field](./screenshots/search-field.png) | ![Gallery Layout](./screenshots/gallery-layout.png) |
+| ![Mobile View](./screenshots/mobile.png) | ![Tablet View](./screenshots/tablet.png) |
 |:--:|:--:|
-| **Search Field** – user types a keyword to start image search. | **Gallery Layout** – responsive image display in grid format. |
+| **Mobile View** – compact layout for small screens. | **Tablet View** – adaptive grid with intermediate sizing. |
 
-| ![Responsive Tablet](./screenshots/tablet-view.png) | ![Validation](./screenshots/empty-query.png) |
+| ![Desktop View](./screenshots/desktop.png) | ![Empty Query Validation](./screenshots/empty-query.png) |
 |:--:|:--:|
-| **Tablet View** – layout adjusts to screen size. | **Validation** – prevents searching with an empty field. |
+| **Desktop View** – full-width layout with responsive columns. | **Validation** – prevents submission of empty queries. |
 
 | ![Modal View](./screenshots/modal.png) |
 |:--:|
-| **Modal Preview** – full-size image opens in a modal window. |
+| **Modal Preview** – full-size image displayed in a modal. |
