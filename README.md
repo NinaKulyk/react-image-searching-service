@@ -2,7 +2,7 @@
 
 A responsive image search application built with **React** and **Vite**, powered by the **Pixabay API**.  
 Users can enter a keyword to fetch matching images, view them in a responsive gallery layout, and preview them in a modal window.  
-Deployed on [**Vercel**](https://react-image-searching-service.vercel.app).
+Deployed on [**Vercel**](https://react-image-searching-service-87b8j7o68-nina-kulyks-projects.vercel.app/).
 
 ---
 
@@ -30,7 +30,7 @@ Deployed on [**Vercel**](https://react-image-searching-service.vercel.app).
 
 ## 🔗 Live Demo
 
-👉 [View Live](https://react-image-searching-service.vercel.app)
+👉 [View Live](https://react-image-searching-service-87b8j7o68-nina-kulyks-projects.vercel.app/)
 
 ---
 
