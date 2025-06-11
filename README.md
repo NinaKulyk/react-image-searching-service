@@ -1,30 +1,56 @@
-## 📸 Image Searching Service (React)
+# 🖼️ React Image Searching Service
 
-A responsive image search application built with React and Vite. Users can search for images by keywords, view results in a flexible grid layout, and click on any image to view it in a modal. The app includes basic validation and user experience enhancements.
-
-### 🔗 Live Demo
-
-[View Live](https://react-image-searching-service.vercel.app/)
+A responsive image search app built with **React** and **Vite**, using the **Pixabay API** to fetch images.  
+Users can type a query to get matching images displayed in a gallery, and click any image to see a larger version in a modal window.  
+Deployed on [**Vercel**](https://vercel.com).
 
 ---
 
-### 🖼️ Screenshots
+## 🛠️ Tech Stack
 
-|                         |                         |
-|-------------------------|-------------------------|
-| ![Input Field Validation](./screenshots/validation.png) | ![Responsive Layout - Small Screens](./screenshots/mobile-layout.png) |
-| *Input validation: prevents empty requests* | *Responsive layout for mobile devices* |
-| ![Responsive Layout - Tablet](./screenshots/tablet-layout.png) | ![Responsive Layout - Desktop](./screenshots/desktop-layout.png) |
-| *Responsive layout for tablet screens* | *Responsive grid layout for desktop* |
-| ![Image Modal](./screenshots/modal.png) |  |
-| *Image opens in a modal on click* |  |
+- **React**
+- **Vite**
+- **Axios**
+- **Pixabay REST API**
+- **Custom Modal**
+- **Responsive Layout**
+- **Form Validation**
 
 ---
 
-### ✅ Features
+## ✨ Features
 
-- Built with React + Vite
-- Uses Pixabay API for image search
-- Fully responsive layout
-- Modal view on image click
-- Validation for empty input field
+- Keyword-based image search
+- Display results in a gallery layout
+- Modal window to preview full-size image
+- Responsive design for mobile, tablet, and desktop
+- "Load more" button for pagination
+- Prevents empty query submission with validation
+
+---
+
+## 🔗 Live Demo
+
+👉 [View Live](https://react-image-searching-service.vercel.app)
+
+---
+
+## 📸 Screenshots
+
+| ![Search Field](./screenshots/search-field.png) | ![Two Column Layout](./screenshots/two-column.png) |
+|:--:|:--:|
+| **Search Field** – user types a keyword to start image search. | **Tablet Layout** – images displayed in two columns on medium screens. |
+
+| ![Full Grid](./screenshots/grid-layout.png) | ![Validation](./screenshots/empty-query.png) |
+|:--:|:--:|
+| **Gallery Layout** – responsive multi-column display of results. | **Validation** – prevents searching with an empty field. |
+
+| ![Modal View](./screenshots/modal.png) |
+|:--:|
+| **Modal Preview** – full-size image opens in modal window. |
+
+---
+
+## ✅ Status
+
+✅ Project is complete and working as intended.
