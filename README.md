@@ -2,7 +2,7 @@
 
 A responsive image search app built with **React** and **Vite**, using the **Pixabay API** to fetch images.  
 Users can type a query to get matching images displayed in a gallery, and click any image to see a larger version in a modal window.  
-Deployed on [**Vercel**](https://vercel.com).
+Deployed on [**Vercel**](https://react-image-searching-service.vercel.app).
 
 ---
 
@@ -37,20 +37,14 @@ Deployed on [**Vercel**](https://vercel.com).
 
 ## 📸 Screenshots
 
-| ![Search Field](./screenshots/search-field.png) | ![Two Column Layout](./screenshots/two-column.png) |
+| ![Search Field](./screenshots/search-field.png) | ![Gallery Layout](./screenshots/gallery-layout.png) |
 |:--:|:--:|
-| **Search Field** – user types a keyword to start image search. | **Tablet Layout** – images displayed in two columns on medium screens. |
+| **Search Field** – user types a keyword to start image search. | **Gallery Layout** – responsive image display in grid format. |
 
-| ![Full Grid](./screenshots/grid-layout.png) | ![Validation](./screenshots/empty-query.png) |
+| ![Responsive Tablet](./screenshots/tablet-view.png) | ![Validation](./screenshots/empty-query.png) |
 |:--:|:--:|
-| **Gallery Layout** – responsive multi-column display of results. | **Validation** – prevents searching with an empty field. |
+| **Tablet View** – layout adjusts to screen size. | **Validation** – prevents searching with an empty field. |
 
 | ![Modal View](./screenshots/modal.png) |
 |:--:|
-| **Modal Preview** – full-size image opens in modal window. |
-
----
-
-## ✅ Status
-
-✅ Project is complete and working as intended.
+| **Modal Preview** – full-size image opens in a modal window. |
